@@ -14,7 +14,8 @@
             android:layout_height="wrap_content"
             android:layout_alignBaseline="@id/validation_button"
             android:text="@string/initial_text_main_activity"
-            android:textColor="@color/black"/>
+            android:textColor="@color/black"
+            android:layout_marginEnd="16dp"/>
         <Button
             android:id="@+id/validation_button"
             android:layout_toEndOf="@id/information_text"
