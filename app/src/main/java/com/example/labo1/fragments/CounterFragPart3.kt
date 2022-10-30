@@ -6,7 +6,6 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
 import android.widget.TextView
 
 private const val ARG_COUNTER = "param_counter"
@@ -35,10 +34,8 @@ class CounterFragPart3 : Fragment() {
         // linkage de la GUI
         val counterTv = view.findViewById<TextView>(R.id.counter_text)
 
-
-        // initialisation des vues
+        // initialisation du compteur de fragments
         counterTv.text = "$counter"
-
     }
 
     override fun onSaveInstanceState(outState: Bundle) {

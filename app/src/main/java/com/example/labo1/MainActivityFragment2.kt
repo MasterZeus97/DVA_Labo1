@@ -20,7 +20,7 @@ class MainActivityFragment2 : AppCompatActivity() {
         }
 
         nextButton.setOnClickListener{
-            val tmp = supportFragmentManager.backStackEntryCount
+            val tmp = supportFragmentManager.backStackEntryCount + 1
             supportFragmentManager.beginTransaction().replace(R.id.frag_part3, CounterFragPart3.newInstance(tmp)).addToBackStack(null).commit()
         }
 
