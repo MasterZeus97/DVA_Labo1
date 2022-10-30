@@ -7,6 +7,7 @@
         android:id="@+id/step_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/black"
         android:layout_above="@id/counter_text"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="5dp"
@@ -17,6 +18,7 @@
         android:id="@+id/counter_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/black"
         android:layout_centerInParent="true"/>
 
 </RelativeLayout>
