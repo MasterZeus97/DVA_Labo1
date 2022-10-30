@@ -11,6 +11,7 @@ class MainActivityFragment2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main_fragment2)
+
         val backButton = findViewById<Button>(R.id.button_back)
         val closeButton = findViewById<Button>(R.id.button_close)
         val nextButton = findViewById<Button>(R.id.button_next)
@@ -20,8 +21,8 @@ class MainActivityFragment2 : AppCompatActivity() {
         }
 
         nextButton.setOnClickListener{
-            val tmp = supportFragmentManager.backStackEntryCount + 1
-            supportFragmentManager.beginTransaction().replace(R.id.frag_part3, CounterFragPart3.newInstance(tmp)).addToBackStack(null).commit()
+            val nbFrags = supportFragmentManager.backStackEntryCount + 1
+            supportFragmentManager.beginTransaction().replace(R.id.frag_part3, CounterFragPart3.newInstance(nbFrags)).addToBackStack(null).commit()
         }
 
         backButton.setOnClickListener{
