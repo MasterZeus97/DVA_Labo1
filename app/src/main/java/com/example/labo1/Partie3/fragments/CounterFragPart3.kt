@@ -7,6 +7,11 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 
+/**
+ * @author Perrenoud Pascal
+ * @author Seem Thibault
+ */
+
 class CounterFragPart3 : Fragment() {
 
     private var nbFrags: Int = 0

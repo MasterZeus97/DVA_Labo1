@@ -1,11 +1,13 @@
 package com.example.labo1
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.text.TextUtils
 import android.widget.Button
-import androidx.fragment.app.FragmentManager
+
+/**
+ * @author Perrenoud Pascal
+ * @author Seem Thibault
+ */
 
 class MainActivityFragment2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

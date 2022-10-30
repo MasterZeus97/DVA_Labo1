@@ -7,6 +7,11 @@ import android.text.TextUtils
 import android.widget.Button
 import android.widget.EditText
 
+/**
+ * @author Perrenoud Pascal
+ * @author Seem Thibault
+ */
+
 class MyActivity2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
 

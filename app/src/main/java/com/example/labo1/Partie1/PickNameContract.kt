@@ -5,6 +5,11 @@ import android.content.Context
 import android.content.Intent
 import androidx.activity.result.contract.ActivityResultContract
 
+/**
+ * @author Perrenoud Pascal
+ * @author Seem Thibault
+ */
+
 class PickNameContract : ActivityResultContract<Void?, String?>() {
     override fun createIntent(context: Context, input: Void?) = Intent(context, MyActivity2::class.java)
 

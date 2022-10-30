@@ -1,13 +1,14 @@
 package com.example.labo1
 
-import android.annotation.SuppressLint
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.widget.Button
 import android.widget.TextView
-import org.w3c.dom.Text
+
+/**
+ * @author Perrenoud Pascal
+ * @author Seem Thibault
+ */
 
 class MainActivity : AppCompatActivity() {
 
