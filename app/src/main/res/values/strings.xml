@@ -4,4 +4,8 @@
     <string name="enter_name_here">Entrer le nom ici</string>
     <string name="validation_button_text">EDITER</string>
     <string name="save_button_text">SAUVER</string>
+    <string name="step">Step</string>
+    <string name="next">NEXT</string>
+    <string name="close">CLOSE</string>
+    <string name="back">BACK</string>
 </resources>

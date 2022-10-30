@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityFragment2">
+
+
+
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/frag_part3"
+        android:name="com.example.labo1.CounterFragPart3"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+
+        app:layout_constraintEnd_toEndOf ="parent"
+        app:layout_constraintStart_toStartOf ="parent"
+        app:layout_constraintTop_toTopOf ="parent"
+        app:layout_constraintBottom_toTopOf="@id/rel_layout"
+        app:layout_constraintVertical_chainStyle="spread"
+
+        tools:layout="@layout/fragment_counter_part3"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/rel_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/frag_part3"
+        app:layout_constraintVertical_chainStyle ="spread"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@color/purple_200">
+
+        <Button
+            android:id="@+id/button_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintHorizontal_bias ="0.1"
+            app:layout_constraintBottom_toBottomOf ="parent"
+            app:layout_constraintEnd_toEndOf ="parent"
+            app:layout_constraintStart_toStartOf ="parent"
+            app:layout_constraintTop_toTopOf ="parent"
+            android:text="@string/back" />
+
+        <Button
+            android:id="@+id/button_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf ="parent"
+            app:layout_constraintEnd_toStartOf="@id/button_next"
+            app:layout_constraintStart_toEndOf ="@id/button_back"
+            app:layout_constraintTop_toTopOf ="parent"
+            android:text="@string/close" />
+
+        <Button
+            android:id="@+id/button_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintHorizontal_bias ="0.9"
+            app:layout_constraintBottom_toBottomOf ="parent"
+            app:layout_constraintEnd_toEndOf ="parent"
+            app:layout_constraintStart_toStartOf ="parent"
+            app:layout_constraintTop_toTopOf ="parent"
+            android:text="@string/next" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
