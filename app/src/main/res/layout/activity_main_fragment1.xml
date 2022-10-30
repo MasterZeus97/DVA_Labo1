@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityFragment1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/firstFrag"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/box_width"
+            android:layout_below="@id/secondFrag"
+            android:name="com.example.labo1.ColorFragment"/>
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/secondFrag"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/box_width"
+            android:name="com.example.labo1.CounterFragment"/>
+    </RelativeLayout>
+</RelativeLayout>
