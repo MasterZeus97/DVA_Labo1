@@ -19,7 +19,8 @@
             android:layout_toEndOf="@id/edit_text1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/save_button_text"/>
+            android:text="@string/save_button_text"
+            android:drawableLeft="@drawable/icons8_done"/>
 
     </RelativeLayout>
 

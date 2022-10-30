@@ -13,13 +13,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignBaseline="@id/validation_button"
-            android:text="@string/initial_text_main_activity" />
+            android:text="@string/initial_text_main_activity"
+            android:textColor="@color/black"/>
         <Button
             android:id="@+id/validation_button"
             android:layout_toEndOf="@id/information_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/validation_button_text"/>
+            android:text="@string/validation_button_text"
+            android:drawableLeft="@drawable/icons8_edit"/>
 
     </RelativeLayout>
 
